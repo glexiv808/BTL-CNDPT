@@ -9956,3 +9956,30 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  
+}
+.date{
+  text-align: center; 
+}
+th {
+  background-color: #44425A;
+  color: white;
+  font-size: 20px;
+}
+.discount {
+  color: red;
+  font-weight: bold;
+}
+.note {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  text-align: left;
+}

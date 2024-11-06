@@ -12,12 +12,9 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">    
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
@@ -29,11 +26,48 @@
 </head>
 
 <body>
-    <!-- Header Start -->
-    <header id="app-header"></header>
-    <script async src="header.js"></script>  
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
+                </a>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Văn phòng của chúng tôi</h6>
+                        <small> Đồng Tâm, Hai Bà Trưng, Hà Nội</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Email</h6>
+                        <small>info@example.com</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Số điện thoại</h6>
+                        <small>+012 345 6789</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
     <!-- Navbar Start -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row border-top px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none" data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
@@ -69,7 +103,7 @@
                         <div class="navbar-nav py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">Về chúng tôi</a>
-                            <a href="course.html" class="nav-item nav-link">Đào tạo</a>
+                            <a href="course.html" class="nav-item nav-link">Các khóa học chứng khoán</a>
                             <a href="teacher.html" class="nav-item nav-link">Giảng viên</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
@@ -85,8 +119,9 @@
                 </nav>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+    </div> -->
+    <!-- Navbar End -->
+    <?php include("header.php"); ?>
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 mb-5">
@@ -112,7 +147,7 @@
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
-                            <h1 class="display-3 text-white mb-md-4">Đội ngũ giảng dạy chuyên nghiệp</h1>
+                            <h1 class="display-3 text-white mb-md-4">Đội ngũ giảng dạy uy tín</h1>
                             <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Tìm hiểu ngay</a>
                         </div>
                     </div>
@@ -142,13 +177,11 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Về chúng tôi</h5>
-                        <h1>Thư ngỏ</h1>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
+                        <h1>Innovative Way To Learn</h1>
                     </div>
-                    <p style="text-indent:30px">Trung tâm NCKH&ĐTCK được thành lập theo Quyết định số 1038/1997/QĐ-TTg ngày 06/11/2024 của Thủ tướng Chính phủ, với nhiệm vụ tổ chức thực hiện các hoạt động nghiên cứu khoa học, đào tạo, bồi dưỡng kiến thức về lĩnh vực chứng khoán, thị trường chứng khoán và thị trường vốn; cung cấp các dịch vụ, tư vấn về đào tạo, bồi dưỡng liên quan đến lĩnh vực chứng khoán, thị trường chứng khoán và thị trường vốn cho các tổ chức, cá nhân trong và ngoài nước.
-                        <br>
-                        <p style="text-indent:30px">Trải qua hơn 1 tháng xây dựng và phát triển, Trung tâm NCKH&ĐTCK từ một đơn vị nhỏ về quy mô, lại phải tiếp cận với một lĩnh vực mới mẻ, đã nỗ lực phấn đấu để từng bước khẳng định vị thế, từng bước phát triển về quy mô và chiều sâu, góp phần xứng đáng cho sự phát triển của thị trường chứng khoán. Hiện nay, Trung tâm NCKH&ĐTCK đặt mục tiêu tăng cường chất lượng hoạt động đào tạo và nghiên cứu khoa học, phát huy hiệu quả các nguồn lực để phục vụ tốt nhất hoạt động đào tạo, nghiên cứu khoa học với định hướng trở thành đơn vị hàng đầu trong lĩnh vực nghiên cứu, đào tạo về chứng khoán tại Việt Nam.</p> </p>
-                    <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Tìm hiểu thêm</a>
+                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
+                    <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                 </div>
             </div>
         </div>
@@ -161,51 +194,55 @@
         <div class="container pt-5 pb-3">
             <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
-                <h1>Chương trình hợp tác</h1>
+                <h1>Explore Top Subjects</h1>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/ACIIA banner.jpg" alt="">
-                        <a class=" text-white text-decoration-none" href="">
-
+                        <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Web Design</h4>
+                            <span>100 Courses</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/ASIF banner.jpg" alt="">
-                        <a class="text-white text-decoration-none" href="">
-
+                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Development</h4>
+                            <span>100 Courses</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/Kinh te quoc dan banner.jpg" alt="">
-                        <a class="text-white text-decoration-none" href="">
-
+                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Game Design</h4>
+                            <span>100 Courses</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/LuxDev banner.jpg" alt="">
-                        <a class="text-white text-decoration-none" href="">
-
+                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Apps Design</h4>
+                            <span>100 Courses</span>
                         </a>
                     </div>
                 </div>
-                <!-- <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/SAAJ banner.jpg" alt="">
+                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
                         <a class="cat-overlay text-white text-decoration-none" href="">
                             <h4 class="text-white font-weight-medium">Marketing</h4>
                             <span>100 Courses</span>
                         </a>
                     </div>
-                </div> -->
-                <!-- <div class="col-lg-3 col-md-6 mb-4">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/cat-6.jpg" alt="">
                         <a class="cat-overlay text-white text-decoration-none" href="">
@@ -231,7 +268,7 @@
                             <span>100 Courses</span>
                         </a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -242,19 +279,19 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Đào tạo</h5>
-                <h1>Các khóa học của chúng tôi</h1>
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
+                <h1>Our Popular Courses</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PTKTBAC2.jpg" alt="">
+                        <img class="img-fluid" src="img/course-1.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
                             </div>
-                            <a class="h5"href="single.html">Phân tích kĩ thuật cao</a>
+                            <a class="h5" href="">Phân tích kĩ thuật cao</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -272,7 +309,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
                             </div>
-                            <a class="h5"href="single.html">Chứng khoán cơ bản</a>
+                            <a class="h5" href="">Chứng khoán cơ bản</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -290,7 +327,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>Tối 2, 4, 6</small>
                             </div>
-                            <a class="h5"href="single.html">Đọc hiểu báo cáo tài chính</a>
+                            <a class="h5" href="">Đọc hiểu báo cáo tài chính</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -302,14 +339,14 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/HIEUTAICHINH.jpg" alt="">
+                        <img class="img-fluid" src="img/course-4.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>Tối 2, 4, 6
                                 </small>
                             </div>
-                            <a class="h5"href="single.html">Phân tích Ngành và Dòng tiền Thị trường</a>
+                            <a class="h5" href="">Phân tích Ngành và Dòng tiền Thị trường</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -321,13 +358,13 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/safe_image (1).png" alt="">
+                        <img class="img-fluid" src="img/course-5.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>Tối 3, 5</small>
                             </div>
-                            <a class="h5" href="single.html">Giao dịch mạo hiểm - Sống chung với rủi ro</a>
+                            <a class="h5" href="">Giao dịch mạo hiểm - Sống chung với rủi ro</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -345,7 +382,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>T7, Chủ nhật</small>
                             </div>
-                            <a class="h5" href="single.html">Bắt đáy và Chốt lời Cổ phiếu</a>
+                            <a class="h5" href="">Bắt đáy và Chốt lời Cổ phiếu</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
@@ -574,8 +611,70 @@
 
 
     <!-- Footer Start -->
-    <header id="app-footer"></header>
-    <script async src="footer.js"></script>  
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Các khóa học</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Chứng khoán</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Phân tích thị trường</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Bắt đáy- Chốt lời</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
+                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">&copy; <a href="#">Domain Name</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                </p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <ul class="nav d-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- Footer End -->
 
 
@@ -595,6 +694,44 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 </html>
