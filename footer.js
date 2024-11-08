@@ -2,6 +2,7 @@ let appFooter = `
     <nav>
            <!-- Footer Start -->
     <div class="container-fluid bg-darkblue text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <img alt="Divider" loading="lazy" width="604" height="32" src="/img/footer-line.svg" style="color: transparent; margin:0">
         <div class="row pt-5">
             <div class="col-lg-7 col-md-12">
                 <div class="row">
