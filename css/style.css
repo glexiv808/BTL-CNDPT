@@ -2686,8 +2686,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FF6600;
-  border-color: #FF6600;
+  color: rgb(151 71 255) ;
+  border-color: rgb(151 71 255) ;
+
 }
 
 .btn-outline-primary:hover {
@@ -4761,14 +4762,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FF6600;
+  color: #5bdac8;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #b34700;
+  color: #5bdac8;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4794,8 +4795,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #5bdac8;
+  border-color: #5bdac8;
 }
 
 .page-item.disabled .page-link {
@@ -4878,7 +4879,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF6600;
+  background-color:  rgb(151 71 255);
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -9654,6 +9655,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-decoration-none {
   text-decoration: none !important;
+  color: white;
 }
 
 .text-break {
@@ -9852,13 +9854,13 @@ h6,
   width: 25px;
   height: 25px;
   margin: 5px 0;
-  background: #44425A;
+  background:  #5bdac8;
   border: 5px solid #FFFFFF;
   border-radius: 25px;
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background:  rgb(151 71 255);
 }
 
 @media (max-width: 991.98px) {
@@ -9951,7 +9953,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background: rgb(151 71 255);
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9961,12 +9963,12 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid rgb(151 71 255);
   border-radius: 20px;
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #44425A;
+  background: #5bdac8;
 }
 
 .blog-item img {
