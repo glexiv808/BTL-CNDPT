@@ -165,7 +165,7 @@ a {
 }
 
 a:hover {
-  color: #b34700;
+  color: #5bdac8;
   text-decoration: underline;
 }
 
@@ -2693,8 +2693,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: rgb(151 71 255) ;
+  border-color: rgb(151 71 255) ;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -10022,7 +10022,7 @@ th {
   font-weight: bold;
 }
 .note {
-  background-color: #f8f9fa;
+  background-color:rgb(30 39 50 );
   font-weight: bold;
   text-align: left;
 }
