@@ -131,11 +131,22 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="">
-                <iframe width="1172" height="659" src="https://www.youtube.com/embed/STOIok5XjEY?autoplay=1&mute=1&controls=0&modestbranding=1" title="HENNESSY | kewtiie x haisam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>  
-                <!-- <iframe width="1172" height="659" src="https://drive.google.com/uc?export=view&id=1dkca-1ixbrQLmDEg1yhdbKiBcIdn_B07" title="" frameborder="0" allow="autoplay;encrypted-media" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                <video  id="myVideo"  width="1172" height="659" src="img/AbouUs.mp4" title="" autoplay loop></video>
+  
+                <script>
+                    const video = document.getElementById("myVideo");
 
-                </iframe>   -->
+                    // Khi chuột lướt qua video, bật tiếng
+                    video.addEventListener("mouseover", () => {
+                    video.muted = false;
+                    });
+
+                    // Khi chuột rời khỏi video, tắt tiếng
+                    video.addEventListener("mouseout", () => {
+                    video.muted = true;
+                    });
+                </script>
+
             </div>
         </div>
     </div>
