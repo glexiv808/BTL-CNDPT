@@ -9981,6 +9981,14 @@ h6,
   transform: scale(1.2);
 }
 
+.logo img {
+  transition: 0.7s;
+}
+
+.logo:hover img {
+  transform: scale(1.05);
+}
+
 .blog-overlay {
   position: absolute;
   padding: 30px;
