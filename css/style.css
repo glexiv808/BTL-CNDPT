@@ -9899,6 +9899,10 @@ h6,
   transform: scale(1.3);
 }
 
+.course-img{
+  height: 233.49px;
+}
+
 .cat-overlay {
   position: absolute;
   width: 100%;
@@ -9983,6 +9987,7 @@ h6,
 
 .logo img {
   transition: 0.7s;
+  height: 442px;
 }
 
 .logo:hover img {

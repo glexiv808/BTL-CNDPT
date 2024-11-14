@@ -9,13 +9,13 @@ let appFooter = `
                     <div class="col-md-6 mb-5">
                         <h5 class="text-purple text-uppercase mb-4" style="letter-spacing: 5px;">Liên hệ</h5>
                         <p><i class="fa fa-map-marker-alt mr-2"></i>Đồng Tâm, Hai Bà Trưng, Hà Nội</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+84 345 67890</p>
+                        <p><i class="fa fa-envelope mr-2"></i>tradeway2vn@gmail.com</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-square" href="https://www.instagram.com/glexivisntreal/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
@@ -45,7 +45,7 @@ let appFooter = `
     <div class="container-fluid bg-darkblue text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a class="text-purple" href="#">TradeWay2Vn</a>.Trang thông tin chứng khoán Trung tâm TradeWay2Vn: Giấy phép Số 126/GP-TTĐT, Bộ Thông tin và Truyền thông cấp ngày 20/7/2020.
+                <p class="m-0 text-white">&copy; <a class="text-purple" href="#">TradeWay2Vn</a>.Trang thông tin chứng khoán Trung tâm TradeWay2Vn: Giấy phép Số 9/GP-ĐTNH, Bộ Thông tin và Truyền thông cấp ngày 31/2/2020.
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
