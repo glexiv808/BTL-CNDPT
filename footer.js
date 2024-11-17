@@ -45,7 +45,7 @@ let appFooter = `
     <div class="container-fluid bg-darkblue text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a class="text-purple" href="#">TradeWay2Vn</a>.Trang thông tin chứng khoán Trung tâm TradeWay2Vn: Giấy phép Số 9/GP-ĐTNH, Bộ Thông tin và Truyền thông cấp ngày 31/2/2020.
+                <p class="m-0 text-white">&copy; <a class="text-purple" href="#">TradeWay2Vn</a>.Trang thông tin chứng khoán Trung tâm TradeWay2Vn: Giấy phép Số 9/GP-ĐTNH, Bộ Thông tin và Truyền thông cấp ngày 01/11/2024.
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
